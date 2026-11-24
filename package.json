@@ -1,0 +1,16 @@
+{
+  "name": "ai-decoder-workspace",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "AI DECODER - Advanced Full-Stack AI Multimodal & Security SaaS",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "start": "npm --prefix server run start",
+    "test": "npm --prefix server test",
+    "db:seed": "npm --prefix server run db:seed"
+  }
+}

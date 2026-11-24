@@ -1,0 +1,78 @@
+[
+  {
+    "id": "15f9faf5-3fd3-4b74-8aa4-85a1fecf4c90",
+    "name": "Neo Operator",
+    "email": "neo@ai-decoder.io",
+    "password": "$2a$10$d4ADii2m64uKg70BnoRbM.IAZB2J3rsIntpGPxO1Wt.M5OqaLbVFG",
+    "role": "user",
+    "createdAt": "2026-11-24T16:26:37.232Z"
+  },
+  {
+    "id": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "_id": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "admin",
+    "apiKey": "aid_admin_master_key_998877",
+    "isActive": true,
+    "usageQuota": {
+      "requestsToday": 0,
+      "maxRequestsPerDay": 500,
+      "lastResetDate": "2026-11-24T17:40:10.856Z"
+    },
+    "name": "Chief Operator",
+    "email": "admin@ai-decoder.io",
+    "password": "$2a$10$f.ylzWJ4ewQxLSuhlfod4OSfHi5ZNVZQ15WTrLlAH/b28Ox4koKsq",
+    "createdAt": "2026-11-24T17:40:10.866Z",
+    "updatedAt": "2026-11-24T17:40:10.866Z"
+  },
+  {
+    "id": "24894537-5900-461e-b672-cc14bfb947c4",
+    "_id": "24894537-5900-461e-b672-cc14bfb947c4",
+    "role": "analyst",
+    "apiKey": "aid_analyst_key_112233",
+    "isActive": true,
+    "usageQuota": {
+      "requestsToday": 0,
+      "maxRequestsPerDay": 500,
+      "lastResetDate": "2026-11-24T17:40:10.870Z"
+    },
+    "name": "Lead Security Analyst",
+    "email": "analyst@ai-decoder.io",
+    "password": "$2a$10$f.ylzWJ4ewQxLSuhlfod4OP9VlARL654w3vPc7eF8Hf3UdSogAWd.",
+    "createdAt": "2026-11-24T17:40:10.870Z",
+    "updatedAt": "2026-11-24T17:40:10.870Z"
+  },
+  {
+    "id": "28b7826c-3051-4324-ae04-d2015d89a411",
+    "_id": "28b7826c-3051-4324-ae04-d2015d89a411",
+    "role": "admin",
+    "apiKey": "aid_admin_master_key_998877",
+    "isActive": true,
+    "usageQuota": {
+      "requestsToday": 0,
+      "maxRequestsPerDay": 500,
+      "lastResetDate": "2026-11-24T17:57:36.059Z"
+    },
+    "name": "Chief Operator",
+    "email": "admin@ai-decoder.io",
+    "password": "$2a$10$eC1ma0pUWZCFS.Y5JX5ITOzgcTXxsgbY0CNbP5nmXnB83sKl4Bofu",
+    "createdAt": "2026-11-24T17:57:36.060Z",
+    "updatedAt": "2026-11-24T17:57:36.060Z"
+  },
+  {
+    "id": "b5de8bdb-349f-4a9e-8417-e8d57905e153",
+    "_id": "b5de8bdb-349f-4a9e-8417-e8d57905e153",
+    "role": "analyst",
+    "apiKey": "aid_analyst_key_112233",
+    "isActive": true,
+    "usageQuota": {
+      "requestsToday": 0,
+      "maxRequestsPerDay": 500,
+      "lastResetDate": "2026-11-24T17:57:36.063Z"
+    },
+    "name": "Lead Security Analyst",
+    "email": "analyst@ai-decoder.io",
+    "password": "$2a$10$eC1ma0pUWZCFS.Y5JX5ITOHBecoFqcHC1JO7qEJNmNyfDKw0uzPpe",
+    "createdAt": "2026-11-24T17:57:36.063Z",
+    "updatedAt": "2026-11-24T17:57:36.063Z"
+  }
+]

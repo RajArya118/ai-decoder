@@ -1,0 +1,108 @@
+[
+  {
+    "id": "4849cd94-2dd5-4a65-8c3c-2d14191e0f5b",
+    "decodeId": "general",
+    "userId": null,
+    "role": "user",
+    "content": "What is the time complexity of this function?",
+    "timestamp": "2026-11-24T16:27:34.257Z"
+  },
+  {
+    "id": "81c743a1-8408-4060-a83d-4c1772b375de",
+    "decodeId": "general",
+    "userId": null,
+    "role": "assistant",
+    "content": "[AI Decoder Copilot]: Regarding your general payload (\"General AI Assistant...\"):\nThe decoded data structure adheres to standard parsing specifications.\nYou can ask for security vulnerability checks, alternative encodings, or code conversion!",
+    "timestamp": "2026-11-24T16:27:34.260Z"
+  },
+  {
+    "id": "89282274-df53-49b1-b4ad-3104003f2c4f",
+    "decodeId": "fda2b59e-0833-4897-8773-d0b42f20579d",
+    "userId": null,
+    "role": "user",
+    "content": "How would an attacker exploit this vulnerable query in curl?",
+    "timestamp": "2026-11-24T17:40:10.886Z",
+    "createdAt": "2026-11-24T17:40:10.886Z"
+  },
+  {
+    "id": "8c3b37c8-ba29-4919-8ed7-dbd06f08978c",
+    "decodeId": "fda2b59e-0833-4897-8773-d0b42f20579d",
+    "userId": null,
+    "role": "assistant",
+    "content": "An attacker would pass:\n```bash\ncurl -X POST http://localhost:5000/api/authenticate \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user\": \"admin' --\", \"pass\": \"irrelevant\"}'\n```\nThis injects a comment delimiter (`--`) that truncates the password check and logs in as admin without credentials.",
+    "timestamp": "2026-11-24T17:40:10.888Z",
+    "createdAt": "2026-11-24T17:40:10.888Z"
+  },
+  {
+    "id": "96154c1a-db23-4e2f-9623-0b5d156f07d5",
+    "decodeId": "57b9d0e4-9c89-4f84-9863-fe76aa092567",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "user",
+    "content": "Can this algorithm handle duplicates in the array?",
+    "timestamp": "2026-11-24T17:41:18.510Z",
+    "createdAt": "2026-11-24T17:41:18.510Z"
+  },
+  {
+    "id": "9ed8e975-3fa0-4e4c-a979-d176b739b93f",
+    "decodeId": "57b9d0e4-9c89-4f84-9863-fe76aa092567",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "assistant",
+    "content": "[AI Decoder Copilot]: Regarding your code payload (\"Analyzed javascript block: execu...\"):\nThe decoded structure conforms to verified parsing standards.\nAsk me to refactor this, check for edge-case vulnerabilities, or generate alternative encodings!",
+    "timestamp": "2026-11-24T17:41:18.513Z",
+    "createdAt": "2026-11-24T17:41:18.513Z"
+  },
+  {
+    "id": "dbe854af-3613-4c44-a5f5-f3e6c7c05b6a",
+    "decodeId": "32a1b9c5-755a-4627-b0c3-3174b6eb2aa1",
+    "userId": null,
+    "role": "user",
+    "content": "How would an attacker exploit this vulnerable query in curl?",
+    "timestamp": "2026-11-24T17:57:36.078Z",
+    "createdAt": "2026-11-24T17:57:36.078Z"
+  },
+  {
+    "id": "73e08104-9b08-4c13-a8e0-7c0b781c6fcf",
+    "decodeId": "32a1b9c5-755a-4627-b0c3-3174b6eb2aa1",
+    "userId": null,
+    "role": "assistant",
+    "content": "An attacker would pass:\n```bash\ncurl -X POST http://localhost:5000/api/authenticate \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user\": \"admin' --\", \"pass\": \"irrelevant\"}'\n```\nThis injects a comment delimiter (`--`) that truncates the password check and logs in as admin without credentials.",
+    "timestamp": "2026-11-24T17:57:36.080Z",
+    "createdAt": "2026-11-24T17:57:36.080Z"
+  },
+  {
+    "id": "a6455fca-af52-4010-9eeb-41f3c632a01a",
+    "decodeId": "cc3f8400-9356-40a4-87f9-304ab7dca5fc",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "user",
+    "content": "Can this algorithm handle duplicates in the array?",
+    "timestamp": "2026-11-24T17:58:34.413Z",
+    "createdAt": "2026-11-24T17:58:34.413Z"
+  },
+  {
+    "id": "7ede6def-ec20-4e09-a883-be8d82cda530",
+    "decodeId": "cc3f8400-9356-40a4-87f9-304ab7dca5fc",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "assistant",
+    "content": "[AI Decoder Copilot]: Regarding your code payload (\"Analyzed javascript block: execu...\"):\nThe decoded structure conforms to verified parsing standards.\nAsk me to refactor this, check for edge-case vulnerabilities, or generate alternative encodings!",
+    "timestamp": "2026-11-24T17:58:34.416Z",
+    "createdAt": "2026-11-24T17:58:34.416Z"
+  },
+  {
+    "id": "b328c51b-bbf2-4338-8901-0f8d5fbe954b",
+    "decodeId": "d1514782-72a9-4c57-8270-deba55451bf8",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "user",
+    "content": "Can this algorithm handle duplicates in the array?",
+    "timestamp": "2026-11-24T18:08:23.303Z",
+    "createdAt": "2026-11-24T18:08:23.303Z"
+  },
+  {
+    "id": "e8663238-5f5b-4b06-b6cf-acf1466ff029",
+    "decodeId": "d1514782-72a9-4c57-8270-deba55451bf8",
+    "userId": "de6f63dc-5057-4ad7-903f-0ad5856f6fc1",
+    "role": "assistant",
+    "content": "[AI Decoder Copilot]: Regarding your code payload (\"Analyzed javascript block: execu...\"):\nThe decoded structure conforms to verified parsing standards.\nAsk me to refactor this, check for edge-case vulnerabilities, or generate alternative encodings!",
+    "timestamp": "2026-11-24T18:08:23.305Z",
+    "createdAt": "2026-11-24T18:08:23.305Z"
+  }
+]
